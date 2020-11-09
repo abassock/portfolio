@@ -4,7 +4,7 @@ html{
 
 body{
     font-family: 'Barlow Semi Condensed';
-    font-size: 24px;
+    font-size: 28px;
     line-height: 1.5;
     color: black;
 }
@@ -81,7 +81,7 @@ footer p{
   }
 
 h1{
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 500;
     text-align: center;
     padding-top: 10px;
