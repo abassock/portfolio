@@ -54,7 +54,7 @@ footer p{
     color: black;
 }
 
-.skip a{
+a.skip{
     background: white;
     left: 0;
     padding: 6px;
@@ -63,7 +63,7 @@ footer p{
     z-index: 1;
   }
   
-.skip a:focus{
+a.skip:focus{
     top:20px;
     color: black;
     text-decoration-style: solid;
