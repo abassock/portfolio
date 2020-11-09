@@ -167,16 +167,31 @@ p{
     margin-right: auto;
   }
   
-.gallery, .gallery-home img:hover{
+.gallery img:hover{
       opacity: 50%;
   }
-  
-  
-.gallery, .gallery-home div{
-    overflow: hidden;
+
+.gallery-home img:hover{
+    opacity: 50%;
 }
   
-.gallery, .gallery-home>img{
+  
+.gallery div{
+    overflow: hidden;
+}
+
+.gallery-home div{
+    overflow:hidden;
+}
+  
+.gallery>img{
+    width: 400px;
+    height: 400px;
+    justify-self: center;
+    padding: 10px;
+  }
+
+  .gallery-home>img{
     width: 400px;
     height: 400px;
     justify-self: center;
