@@ -146,6 +146,7 @@ p{
     flex-direction: row;
     justify-content: space-around;
 }
+
 .gallery{
     display:flex;
     flex-wrap: wrap;
@@ -191,7 +192,7 @@ p{
     padding: 10px;
   }
 
-  .gallery-home>img{
+.gallery-home>img{
     width: 400px;
     height: 400px;
     justify-self: center;
@@ -299,4 +300,3 @@ fieldset{
       animation:none;
     }
   }
-
