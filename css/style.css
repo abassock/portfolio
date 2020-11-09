@@ -1,0 +1,288 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed';
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+
+.home-page{
+    background-color: #eee2df;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.sexism-page{
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #eee2df;
+}
+
+.racism-page{
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #eee2df;
+}
+
+.election-page{
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #eee2df;
+}
+
+.gallery-page{
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #eee2df;
+}
+
+footer {
+    grid-column: 1 / -1;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-grid{
+    display:grid;
+}
+
+footer p{
+    color: black;
+}
+
+.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    z-index: 1;
+  }
+  
+.skip:focus{
+    top:20px;
+    color: black;
+    text-decoration-style: solid;
+  }
+
+h1{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+
+.nav_item a{
+    color: black;
+    text-decoration: none;
+  }
+  
+.nav_item a:hover, a:focus{
+    color: #c89f9c;
+    transition: color 0.4s ease 0s;
+}
+
+.current{
+    border: 2px solid #c89f9c;
+  }
+
+h2{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.first{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.second{
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 2px solid black;
+}
+
+.third{
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 2px solid black;
+}
+
+p{
+    text-align: center;
+}
+.gallery-home{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 10px;
+    grid-column-gap: 10px;
+    overflow: hidden;
+  }
+
+#image1, #image2, #image3{
+    max-width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.gallery img:hover{
+      opacity: 50%;
+  }
+
+.gallery-home img:hover{
+    opacity: 50%;
+}
+  
+  
+.gallery div{
+    overflow: hidden;
+}
+
+.gallery-home div{
+    overflow:hidden;
+}
+  
+.gallery>img{
+    max-width: 400px;
+    justify-self: center;
+    padding: 10px;
+  }
+
+.gallery-home>img{
+    width: 400px;
+    height: 400px;
+    justify-self: center;
+    padding: 10px;
+  }
+
+.inquiries{
+    font-size: 20px;
+}
+input[type = "text"]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #3d405b;
+    background-color: white;
+}
+
+input[type = "email"]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #3d405b;
+    background-color: white;
+}
+
+
+input[type = "submit"]{
+    padding: 8px 16px;
+    font-family: "Barlow Semi Condensed";
+    font-size: 16px;
+    margin: 20px 1px;
+    text-align: left;
+    border: 2px solid #3d405b;
+    background-color: #3d405b;
+    color: white;
+}
+
+fieldset{
+    text-align: left;
+    line-height: 2;
+    margin: 10px 30px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+  }
+
+  
+
+@media screen and (min-width:800px){
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+.first-image{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.first-image img:hover{
+    opacity: 50%;
+}
+
+.first-text{
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 50px;
+    border-bottom: none;
+}
+.second-image{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.second-image img:hover{
+    opacity: 50%;
+}
+
+.second-text{
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-bottom: none;
+}
+.third-image{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.third-image img:hover{
+    opacity: 50%;
+}
+
+.third-text{
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 50px;
+    border-bottom: none
+}
+}
+
+@media (prefers-reduced-motion: reduce){
+    #logo{
+      animation:none;
+    }
+  }
+
