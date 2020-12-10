@@ -10,6 +10,8 @@ body{
 }
 .landing-header h1{
     font-size: 50px;
+    font-family: 'Montserrat';
+    font-weight: 600;
 }
 .home-page{
     background-color: #eee2df;
@@ -287,6 +289,7 @@ fieldset{
         font-size: 18px;
 }
 
+/* For the first section on each page */
 .first{
     margin-right: 50px;
     margin-left:50px;
@@ -299,6 +302,7 @@ fieldset{
     padding-bottom: 10px;
 }
 
+/* For the second section on each page */
 .second{
     margin-right: 50px;
     margin-left:50px;
@@ -311,6 +315,7 @@ fieldset{
     padding-bottom: 10px;
 }
 
+/* For the third section on each page */
 .third{
     margin-right: 50px;
     margin-left:50px;
@@ -404,6 +409,10 @@ fieldset{
 .third-text p{
     font-size: 20px;
     padding-bottom: 10px;
+}
+
+.introduction{
+    font-size: 20px;
 }
 }
 
