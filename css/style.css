@@ -140,7 +140,7 @@ p{
 .gallery-home{
     display: flex;
     flex-wrap:wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -163,51 +163,6 @@ p{
     margin-left: auto;
     margin-right: auto;
   }
-
-  .flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 280px;
-    border: 1px solid #eee2df;
-    perspective: 1000px;
-    margin-left: 75px;
-  }
-  
-    .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    }
-
-    .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    }
-
-    .flip-card-front, .flip-card-back {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    }
-
-    .flip-card-front {
-    background-color: #eee2df;
-    color: black;
-    }
-
-    .flip-card-back {
-      background-color: white;
-      color: black;
-      transform: rotateY(180deg);
-    }
-
-    .flip-card:focus .flip-card-inner{
-      transform: rotateY(180deg);
-    }
 
 .gallery img:hover{
       opacity: 50%;
@@ -293,6 +248,23 @@ fieldset{
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px){
+    .gallery-home{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #image1, #image2, #image3{
+        width: 300px;
+        height:290px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
     .gallery{
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -300,99 +272,36 @@ fieldset{
         padding-top: 10px;
         grid-column-gap: 10px;
         overflow: hidden;
-      }
+}
 
-    .gallery>img{
+.gallery>img{
         max-width: 400px;
         justify-self: space-between;
         padding: 10px;
-      }
+}
+
+.nav_item{
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 18px;
+}
 }
 /* Desktop */
 @media screen and (min-width:1024px){
-    .gallery{
+.gallery{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         padding-top: 10px;
         grid-column-gap: 10px;
         overflow: hidden;
-      }
-      .gallery>img{
+}
+
+.gallery>img{
         max-width: 400px;
         justify-self: space-between;
         padding: 10px;
-      }
-
-.grid-container{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-row-gap: 20px;
-        border-bottom: black;
-    }
-    .first-image{
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .first-image img:hover{
-        opacity: 50%;
-    }
-    
-    .first h2{
-        grid-column: 1;
-        grid-row: 2;
-        margin-left: 50px;
-        border-bottom: none;
-    }
-
-    .first p{
-        grid-column: 1;
-        grid-row: 3;
-        margin-left: 50px;
-        border-bottom: none;
-    } 
-    .second-image{
-        grid-column: 2;
-        grid-row: 1;
-        border-bottom: none;
-
-    }
-    
-    .second-image img:hover{
-        opacity: 50%;
-    }
-    
-    .second h2{
-        grid-column: 2;
-        grid-row: 2;
-        margin-right: 50px;
-        margin-left: 50px;
-        border-bottom: none;
-    }
-
-    .second p{
-        grid-column: 2;
-        grid-row: 3;
-        margin-right: 50px;
-        margin-left: 50px;
-        border-bottom: none;
-    }
-
-    .third-image{
-        grid-column: 3;
-        grid-row: 1;
-    }
-    
-    .third-image img:hover{
-        opacity: 50%;
-    }
-    
-    .third-text{
-        grid-column: 3;
-        grid-row: 2;
-        margin-left: 50px;
-        border-bottom: none;
-    }
+}
 
 .landing-header{
     flex-direction: column;
@@ -405,6 +314,23 @@ fieldset{
     margin-top: 10px;
     font-size: 25px;
 }
+
+.gallery-home{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#image1, #image2, #image3{
+    width: 400px;
+    height:390px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
 
