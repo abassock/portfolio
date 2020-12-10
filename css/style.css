@@ -286,6 +286,43 @@ fieldset{
         margin-top: 10px;
         font-size: 18px;
 }
+
+.first{
+    margin-right: 50px;
+    margin-left:50px;
+}
+.first-text h2{
+    font-size: 23px;
+}
+.first-text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.second{
+    margin-right: 50px;
+    margin-left:50px;
+}
+.second-text h2{
+    font-size: 23px;
+}
+.second-text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.third{
+    margin-right: 50px;
+    margin-left:50px;
+}
+.third-text h2{
+    font-size: 23px;
+}
+.third-text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
 }
 /* Desktop */
 @media screen and (min-width:1024px){
@@ -332,6 +369,42 @@ fieldset{
     margin-right: auto;
   }
 
+/* For the first section on each page */
+.first{
+    margin-right: 50px;
+    margin-left:50px;
+}
+.first-text h2{
+    font-size: 25px;
+}
+.first-text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/* For the second section on each page */
+.second{
+    margin-right: 50px;
+    margin-left:50px;
+}
+.second-text h2{
+    font-size: 25px;
+}
+.second-text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/* For the third section on each page */
+.third{
+    margin-right: 50px;
+    margin-left:50px;
+}
+.third-text h2{
+    font-size: 25px;
+}
+.third-text p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
 }
 
 @media (prefers-reduced-motion: reduce){
