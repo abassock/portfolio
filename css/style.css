@@ -421,7 +421,8 @@ fieldset{
 @media (prefers-reduced-motion: reduce){
     input[type = "submit"]{
         animation: none !important;
-        color: #3d405b;
+        color: white;
+
       }
       .skip a{
         -webkit-transition: none;
