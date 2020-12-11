@@ -182,8 +182,7 @@ p{
 
 .gallery-home img:hover{
     opacity: 50%;
-}
-  
+} 
   
 .gallery div{
     overflow: hidden;
@@ -367,13 +366,6 @@ fieldset{
     font-size: 25px;
 }
 
-.gallery-home{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 #image1, #image2, #image3{
     width: 400px;
     height:390px;
@@ -428,9 +420,13 @@ fieldset{
 
 @media (prefers-reduced-motion: reduce){
     form{
-      animation:none;
+        animation: none !important;
+        color: #3d405b;
+      }
+      .skip a{
+        -webkit-transition: none;
+        transition: none;
+      }
 
-
-    }
   }
 
