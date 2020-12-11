@@ -245,8 +245,8 @@ input[type = "submit"]{
 @keyframes form{
     0% {background-color:#3d405b;}
     33% {background-color:#EB6D80;}
-    66% {background-color:#FFAA83;}
-    100% {background-color:#3d405b;}
+    66% {background-color:#3d405b ;}
+    100% {background-color:#EB6D80;}
 
 }
 
