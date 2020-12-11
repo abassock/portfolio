@@ -166,6 +166,16 @@ p{
     margin-right: auto;
   }
 
+  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+    width: 280px;
+    height:270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .gallery img:hover{
       opacity: 50%;
   }
