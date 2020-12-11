@@ -419,7 +419,7 @@ fieldset{
 }
 
 @media (prefers-reduced-motion: reduce){
-    form{
+    input[type = "submit"]{
         animation: none !important;
         color: #3d405b;
       }
